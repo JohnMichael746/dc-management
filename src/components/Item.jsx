@@ -20,7 +20,7 @@ export function Item({ id, label, status, index, action, className }) {
       {(provided, snapshot) => (
         <div
           className={clsx(
-            `flex justify-between p-3 border-4 border-transparent rounded-lg shadow ring-blue-500 focus:outline-none focus:ring-2 w-100 ${!isEditing && 'bg-[#fff1d4]'}`,
+            `flex justify-between p-3 border-4 border-transparent rounded-lg shadow ring-blue-500 focus:outline-none focus:ring-2 w-100 ${!isEditing && 'bg-[#eaf3ff]'}`,
             {
               "ring-2": snapshot.isDragging || isEditing,
             },
